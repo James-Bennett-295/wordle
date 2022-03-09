@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/James-Bennett-295/wordle#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "open": "^8.4.0"
   }
 }
