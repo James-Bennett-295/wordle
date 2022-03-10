@@ -31,6 +31,8 @@ function tryWord() {
         };
     };
 
+    document.getElementById("wordInputField").value = "";
+
     let charClasses = [];
     for (c in word) {
         if (correctWord.includes(word[c])) {
