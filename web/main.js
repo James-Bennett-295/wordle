@@ -1,10 +1,10 @@
 let tableElements = Array(6).fill(`
     <tr>
-        <th>&#160;&#160;&#160;</th>
-        <th>&#160;&#160;&#160;</th>
-        <th>&#160;&#160;&#160;</th>
-        <th>&#160;&#160;&#160;</th>
-        <th>&#160;&#160;&#160;</th>
+        <th>&#160;</th>
+        <th>&#160;</th>
+        <th>&#160;</th>
+        <th>&#160;</th>
+        <th>&#160;</th>
     </tr>
 `);
 let wordNum = 0;
@@ -47,11 +47,11 @@ function tryWord() {
     };
     let tableElement = `
         <tr>
-            <th class="` + charClasses[0] + `">` + word[0] + `</th>
-            <th class="` + charClasses[1] + `">` + word[1] + `</th>
-            <th class="` + charClasses[2] + `">` + word[2] + `</th>
-            <th class="` + charClasses[3] + `">` + word[3] + `</th>
-            <th class="` + charClasses[4] + `">` + word[4] + `</th>
+            <th class="` + charClasses[0] + `">&#160;` + word[0] + `&#160;</th>
+            <th class="` + charClasses[1] + `">&#160;` + word[1] + `&#160;</th>
+            <th class="` + charClasses[2] + `">&#160;` + word[2] + `&#160;</th>
+            <th class="` + charClasses[3] + `">&#160;` + word[3] + `&#160;</th>
+            <th class="` + charClasses[4] + `">&#160;` + word[4] + `&#160;</th>
         </tr>
     `;
 
